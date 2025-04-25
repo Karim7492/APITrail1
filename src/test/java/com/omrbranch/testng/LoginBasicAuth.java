@@ -270,9 +270,9 @@ public class LoginBasicAuth extends BaseClass {
 		String deleteAddressMessage = deleteAddress_Output_Pojo.getMessage();
 		assertEquals(deleteAddressMessage, "Address deleted successfully","Verify Address Deleted Message");
 		
+		
+		
 		getUserAddress();
-		
-		
 		
 	}
 	
