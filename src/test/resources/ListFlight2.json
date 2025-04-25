@@ -1,0 +1,55 @@
+
+{
+    "page": 2,
+    "per_page": 6,
+    "total": 12511,
+    "total_pages": 2086,
+    "data": [
+        {
+            "id": 568,
+            "flightName": "AirIndia",
+            "Country": "India",
+            "Destinations": "69",
+            "URL": "https:\/\/en.wikipedia.org\/wiki\/Air_India"
+        },
+        {
+            "id": 573,
+            "flightName": "AirIndia",
+            "Country": "India",
+            "Destinations": "54",
+            "URL": "https:\/\/en.wikipedia.org\/wiki\/Air_India"
+        },
+        {
+            "id": 576,
+            "flightName": "AirIndia",
+            "Country": "India",
+            "Destinations": "87",
+            "URL": "https:\/\/en.wikipedia.org\/wiki\/Air_India"
+        },
+        {
+            "id": 586,
+            "flightName": "AIR CANADA",
+            "Country": "India",
+            "Destinations": "19",
+            "URL": "https:\/\/en.wikipedia.org\/wiki\/Air_India"
+        },
+        {
+            "id": 593,
+            "flightName": "AirIndia",
+            "Country": "India",
+            "Destinations": "87",
+            "URL": "https:\/\/en.wikipedia.org\/wiki\/Air_India"
+        },
+        {
+            "id": 601,
+            "flightName": "AirTamil",
+            "Country": "uk",
+            "Destinations": "28",
+            "URL": "https:\/\/en.wikipedia.org\/wiki\/AirTamil"
+        }
+    ],
+    "support": {
+        "url": "https:\/\/omrbranch.com",
+        "text": "For Joining Automation Course, Please Contact-Velmurugan 9944152058"
+    }
+}

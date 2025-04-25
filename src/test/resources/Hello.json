@@ -1,0 +1,11 @@
+{
+	"name": "Kar",
+	"mailId": "Kar@gmail.com",
+	"phoneNo": 1234567891,
+	"companyName": "CTS",
+	"address": {
+		"street": "AK",
+		"city": "Chennai",
+		"course": "JAVA"
+	}
+}

@@ -1,0 +1,55 @@
+
+{
+    "page": 1,
+    "per_page": 6,
+    "total": 12511,
+    "total_pages": 2086,
+    "data": [
+        {
+            "id": 49,
+            "flightName": "greens",
+            "Country": "omr",
+            "Destinations": "86",
+            "URL": "https:\/\/en.wikipedia.org\/wiki\/Air_India"
+        },
+        {
+            "id": 481,
+            "flightName": "Lufthansa",
+            "Country": "India",
+            "Destinations": "87",
+            "URL": "https:\/\/en.wikipedia.org\/wiki\/Air_India"
+        },
+        {
+            "id": 516,
+            "flightName": "AIR CANADA",
+            "Country": "India",
+            "Destinations": "19",
+            "URL": "https:\/\/en.wikipedia.org\/wiki\/Air_India"
+        },
+        {
+            "id": 548,
+            "flightName": "AirIndia",
+            "Country": "India",
+            "Destinations": "87",
+            "URL": "https:\/\/en.wikipedia.org\/wiki\/Air_India"
+        },
+        {
+            "id": 557,
+            "flightName": "AirIndia",
+            "Country": "India",
+            "Destinations": "87",
+            "URL": "https:\/\/en.wikipedia.org\/wiki\/Air_India"
+        },
+        {
+            "id": 561,
+            "flightName": "AirIndia",
+            "Country": "India",
+            "Destinations": "87",
+            "URL": "https:\/\/en.wikipedia.org\/wiki\/Air_India"
+        }
+    ],
+    "support": {
+        "url": "https:\/\/omrbranch.com",
+        "text": "For Joining Automation Course, Please Contact-Velmurugan 9944152058"
+    }
+}
