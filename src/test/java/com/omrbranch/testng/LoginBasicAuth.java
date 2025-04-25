@@ -272,7 +272,7 @@ public class LoginBasicAuth extends BaseClass {
 		
 		
 		
-		
+		getUserAddress();
 		
 	}
 	
