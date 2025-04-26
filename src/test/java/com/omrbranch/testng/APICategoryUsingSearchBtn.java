@@ -326,6 +326,8 @@ public class APICategoryUsingSearchBtn extends BaseClass{
 		CancelOrder_Output_Pojo cancelOrder_Output_Pojo = response.as(CancelOrder_Output_Pojo.class);
 		String cancelOrderMessage = cancelOrder_Output_Pojo.getMessage();
 		System.out.println("Order Message : " + cancelOrderMessage);
+
+		getCartItems();
 	}
 		
 		
