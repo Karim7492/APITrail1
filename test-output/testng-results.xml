@@ -2,32 +2,32 @@
 <testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-05-01T12:33:26 IST" name="Suite" finished-at="2025-05-01T12:34:00 IST" duration-ms="33393">
+  <suite started-at="2025-05-01T12:58:08 IST" name="Default suite" finished-at="2025-05-01T12:58:43 IST" duration-ms="35249">
     <groups>
     </groups>
-    <test started-at="2025-05-01T12:33:26 IST" name="Test" finished-at="2025-05-01T12:34:00 IST" duration-ms="33393">
+    <test started-at="2025-05-01T12:58:08 IST" name="Default test" finished-at="2025-05-01T12:58:43 IST" duration-ms="35249">
       <class name="com.omrbranch.testng.GroceryProjectWithAPIIntegration">
-        <test-method signature="placingOrderUsingWebUI()[pri:0, instance:com.omrbranch.testng.GroceryProjectWithAPIIntegration@5b12b668]" started-at="2025-05-01T12:33:27 IST" name="placingOrderUsingWebUI" finished-at="2025-05-01T12:33:56 IST" duration-ms="29314" status="PASS">
+        <test-method signature="placingOrderUsingWebUI()[pri:0, instance:com.omrbranch.testng.GroceryProjectWithAPIIntegration@5b12b668]" started-at="2025-05-01T12:58:08 IST" name="placingOrderUsingWebUI" finished-at="2025-05-01T12:58:39 IST" duration-ms="31480" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- placingOrderUsingWebUI -->
-        <test-method signature="login()[pri:1, instance:com.omrbranch.testng.GroceryProjectWithAPIIntegration@5b12b668]" started-at="2025-05-01T12:33:56 IST" name="login" finished-at="2025-05-01T12:33:58 IST" duration-ms="2633" status="PASS">
+        <test-method signature="login()[pri:1, instance:com.omrbranch.testng.GroceryProjectWithAPIIntegration@5b12b668]" started-at="2025-05-01T12:58:39 IST" name="login" finished-at="2025-05-01T12:58:41 IST" duration-ms="2228" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="clearCart()[pri:2, instance:com.omrbranch.testng.GroceryProjectWithAPIIntegration@5b12b668]" started-at="2025-05-01T12:33:58 IST" name="clearCart" finished-at="2025-05-01T12:33:59 IST" duration-ms="422" status="PASS">
+        <test-method signature="clearCart()[pri:2, instance:com.omrbranch.testng.GroceryProjectWithAPIIntegration@5b12b668]" started-at="2025-05-01T12:58:41 IST" name="clearCart" finished-at="2025-05-01T12:58:42 IST" duration-ms="502" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clearCart -->
-        <test-method signature="getAllOrder()[pri:4, instance:com.omrbranch.testng.GroceryProjectWithAPIIntegration@5b12b668]" started-at="2025-05-01T12:33:59 IST" name="getAllOrder" finished-at="2025-05-01T12:33:59 IST" depends-on-methods="com.omrbranch.testng.GroceryProjectWithAPIIntegration.placingOrderUsingWebUI" duration-ms="424" status="PASS">
+        <test-method signature="getAllOrder()[pri:4, instance:com.omrbranch.testng.GroceryProjectWithAPIIntegration@5b12b668]" started-at="2025-05-01T12:58:42 IST" name="getAllOrder" finished-at="2025-05-01T12:58:42 IST" depends-on-methods="com.omrbranch.testng.GroceryProjectWithAPIIntegration.placingOrderUsingWebUI" duration-ms="450" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getAllOrder -->
-        <test-method signature="cancelOrder()[pri:5, instance:com.omrbranch.testng.GroceryProjectWithAPIIntegration@5b12b668]" started-at="2025-05-01T12:33:59 IST" name="cancelOrder" finished-at="2025-05-01T12:34:00 IST" duration-ms="551" status="PASS">
+        <test-method signature="cancelOrder()[pri:5, instance:com.omrbranch.testng.GroceryProjectWithAPIIntegration@5b12b668]" started-at="2025-05-01T12:58:42 IST" name="cancelOrder" finished-at="2025-05-01T12:58:43 IST" duration-ms="533" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cancelOrder -->
       </class> <!-- com.omrbranch.testng.GroceryProjectWithAPIIntegration -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
