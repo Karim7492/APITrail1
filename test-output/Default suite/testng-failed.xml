@@ -5,8 +5,7 @@
     <classes>
       <class name="com.omrbranch.testng.APICategoryUsingSearchBtn">
         <methods>
-          <include name="setAddress"/>
-          <include name="getCartItems"/>
+          <include name="clearCart"/>
         </methods>
       </class> <!-- com.omrbranch.testng.APICategoryUsingSearchBtn -->
     </classes>
