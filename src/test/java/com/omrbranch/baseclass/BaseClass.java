@@ -2,7 +2,9 @@ package com.omrbranch.baseclass;
 
 
 
-	import io.restassured.RestAssured;
+	import java.io.File;
+
+import io.restassured.RestAssured;
 import io.restassured.http.Headers;
 import io.restassured.response.Response;
 	import io.restassured.specification.RequestSpecification;
@@ -10,6 +12,7 @@ import io.restassured.response.Response;
 	public class BaseClass {
 		RequestSpecification reqSpec;
 		Response response;
+		RequestSpecification requestSpecification;
 
 		public void addHeader(String key, String value) {
 			reqSpec = RestAssured.given().header(key, value);
@@ -29,7 +32,18 @@ import io.restassured.response.Response;
 		public void addPayload(Object body) {
 			reqSpec = reqSpec.body(body);
 		}
+		
+		public String getProjectPath() {
+    String path = System.getProperty("user.dir");
+    return path;
+		}
+		public void addMultipartPayload(String propName,String fileName) {
+			
+			requestSpecification = reqSpec.multiPart(propName, new File(getProjectPath() + "\\src\\test\\resources\\Attachments"+ fileName));
+			
 
+		}
+		
 		public Response addRequest(String type, String endpoint) {
 			switch (type) {
 			case "GET":

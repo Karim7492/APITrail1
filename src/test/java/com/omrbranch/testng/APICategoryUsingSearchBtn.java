@@ -24,7 +24,9 @@ import com.omrbranch.pojo.cart.ProductSearchData;
 import com.omrbranch.pojo.cart.SearchProduct_Input_Pojo;
 import com.omrbranch.pojo.cart.SearchProduct_Output_Pojo;
 import com.omrbranch.pojo.cart.SearchResultData;
+import com.omrbranch.pojo.changeprofilepic.ChangeProfilePicture_Output_Pojo;
 import com.omrbranch.pojo.login.PostmanBasicAuthLogin_Output_Pojo;
+import com.omrbranch.pojo.logout.Logout_Output_Pojo;
 import com.omrbranch.pojo.order.CancelOrder_Input_Pojo;
 import com.omrbranch.pojo.order.CancelOrder_Output_Pojo;
 import com.omrbranch.pojo.order.CreateOrder_Input_Pojo;
@@ -329,7 +331,56 @@ public class APICategoryUsingSearchBtn extends BaseClass{
 
 		getCartItems();
 	}
+	
+	@Test(priority = 12)
+	public void logOut() {
 		
+		Header h1 = new Header("accept", "application/json");
+		Header h2 = new Header("Authorization", "Bearer " + logToken);
+
+		List<Header> listHeader = new ArrayList<Header>();
+		listHeader.add(h1);
+		listHeader.add(h2);
+
+		Headers headers = new Headers(listHeader);
+		addHeader(headers);
+		
+		Response response = addRequest("POST", "https://omrbranch.com/api/logout");
+		Logout_Output_Pojo logout_Output_Pojo = response.as(Logout_Output_Pojo.class);
+		String logOutMessage = logout_Output_Pojo.getMessage();
+		assertEquals(logOutMessage, "You have logged out","Verify logout Message");
+
+		
+		
+	}
+	
+	
+	@Test(priority = 11)
+	public void changeProfilePicture() {
+		Header h1 = new Header("accept", "application/json");
+		Header h2 = new Header("Authorization", "Bearer " + logToken);
+		Header h3 = new Header("Content-Type", "multipart/form-data");
+
+		List<Header> listHeader = new ArrayList<Header>();
+		listHeader.add(h1);
+		listHeader.add(h2);
+		listHeader.add(h3);
+
+		Headers headers = new Headers(listHeader);
+		addHeader(headers);
+		
+		addMultipartPayload("profile_picture", "se.png");
+		
+		Response response = addRequest("POST", "https://omrbranch.com/api/changeProfilePic");
+		ChangeProfilePicture_Output_Pojo changeProfilePicture_Output_Pojo = response.as(ChangeProfilePicture_Output_Pojo.class);
+		String profilePicMessage = changeProfilePicture_Output_Pojo.getMessage();
+		
+		
+		
+
+	}
+	
+	
 		
 		
 	}
